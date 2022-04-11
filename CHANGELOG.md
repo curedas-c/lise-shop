@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/curedas-c/lise-shop/compare/v0.0.7...v0.0.8) (2022-04-11)
+
+### Features
+
+- configure httpclient and environment endpoints ([ca2f860](https://github.com/curedas-c/lise-shop/commit/ca2f860649b9a5c6086f2bfb232acf5ebffd8586))
+
 ### 0.0.7 (2022-04-11)
 
 ### Features
