@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "commit": "git-cz && npm run release",
+    "commit": "git-cz",
     "release": "standard-version",
     "prepare": "husky install"
   },
