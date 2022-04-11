@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.7 (2022-04-11)
+
+### Features
+
+- **domain:** adss class definition for main entities ([7fe49c8](https://github.com/curedas-c/lise-shop/commit/7fe49c8d65a027bf8f5d7acdbecdb2a936e1882f))
+
 ### [0.0.6](https://github.com/curedas-c/ngx-project-template/compare/v0.0.5...v0.0.6) (2022-04-06)
 
 ### Features
