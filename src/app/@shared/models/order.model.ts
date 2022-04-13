@@ -9,3 +9,8 @@ export class Order {
     this.dressRef = orderModel.dressRef || undefined;
   }
 }
+
+export type OrderContact = {
+  phoneNumber: string;
+  preferredDeliveryAddress: string;
+};

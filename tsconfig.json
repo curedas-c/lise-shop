@@ -21,6 +21,7 @@
     "lib": ["es2020", "dom"],
     "paths": {
       "@shared/*": ["src/app/@shared/*"],
+      "@store/*": ["src/app/@store/*"],
       "@environments/*": ["src/environments/*"]
     }
   },

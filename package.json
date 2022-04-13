@@ -60,15 +60,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "jest": {
-    "preset": "jest-preset-angular",
-    "setupFilesAfterEnv": [
-      "<rootDir>/setup-jest.ts"
-    ],
-    "globalSetup": "jest-preset-angular/global-setup",
-    "roots": [
-      "<rootDir>/src/"
-    ]
   }
 }

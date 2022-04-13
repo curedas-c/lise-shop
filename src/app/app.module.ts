@@ -6,21 +6,9 @@ import { AppComponent } from './app.component';
 
 import { LoadingBarModule } from '@ngx-loading-bar/core';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
-import { NgxsModule } from '@ngxs/store';
-import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
-import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
-import { NgxsStoragePluginModule } from '@ngxs/storage-plugin';
-import { NgxsFormPluginModule } from '@ngxs/form-plugin';
+import { StoreModule } from '@shared/modules/store.module';
 
-const MODULES = [
-  LoadingBarModule,
-  LoadingBarHttpClientModule,
-  NgxsModule.forRoot([]),
-  NgxsLoggerPluginModule.forRoot(),
-  NgxsReduxDevtoolsPluginModule.forRoot(),
-  NgxsStoragePluginModule.forRoot(),
-  NgxsFormPluginModule.forRoot()
-];
+const MODULES = [LoadingBarModule, LoadingBarHttpClientModule, StoreModule];
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, ...MODULES],

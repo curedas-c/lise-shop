@@ -1,3 +1,4 @@
+import { DressSize } from './dress-size.enum';
 export class Customer {
   id: string;
   firstName: string;
@@ -11,3 +12,18 @@ export class Customer {
     this.phone = customerModel.phone || [];
   }
 }
+
+export type CustomerMeasures =
+  | {
+      sleeveLength: number;
+      shoulderLength: number;
+      chestLength: number;
+      bellyCircumference: number;
+      legLength: number;
+      pantCircumference: number;
+      hipCircumference: number;
+      thighCircumference: number;
+    }
+  | {
+      size: DressSize;
+    };
